@@ -1,0 +1,153 @@
+/* STYLE SECTIONING TAGS */
+*{
+margin:0px;
+padding:0px;
+}
+
+header{
+ text-align: center;
+ margin-left: 10%;
+ margin-right: 10%;
+
+}
+
+body {
+  margin: 2em;
+  background-color:#fcf3b6;
+}
+ 
+ main{
+ align-items: center;
+ margin-left: 20%;
+ margin-right: 20%;
+ }
+ 
+
+
+
+/* STYLE TEXT */
+h1 {
+  font-family:'Luckiest guy';
+  font-size: 80px;
+  color: white;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  
+}
+
+#subtitle {
+ font-size: 20px;
+ font-weight: 500;
+}
+
+#monica {
+ color: red;
+}
+
+#magali{
+color: yellow;
+}
+
+h2 {
+  margin-top: 1em; 
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Balsamiq Sans', sans-serif, cursive;
+}
+
+p{
+padding:1em;
+font-family: 'Balsamiq Sans', sans-serif, cursive;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 2em;
+  margin-bottom: 2 em;
+  
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2em;
+
+  
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  display:block;
+  height: 200px;
+  margin-right: 10 px;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30%;
+  
+}
+
+#monicao{
+padding: 1em;
+background-color: white;
+max-height: 180px;
+}
+
+#mingau{
+padding:16px;
+background-color: white;
+max-width: 300px;
+max-height:180px;
+
+}
+
+.q3q4img {
+height: 20em;
+max-width: 150px;
+margin-right: 20px;
+}
+
+
+
+/* STYLE BUTTON */
+button { 
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  margin-top: 1em;
+  padding: 1.5em;
+  
+  background-color: white;
+  border-style: dotted;
+  border-color: black;
+  border-width: thick;
+  border-radius: 40%;
+
+  font-family: 'Balsamiq Sans', sans-serif, cursive;
+  font-size: medium;
+
+  
+}
+
+button:hover{
+ background-color: #fcf3b6;
+ cursor: pointer;
+}
+
+ .final button{
+   border-width: 4px;
+   border-style: solid;
+   border-radius: 0%;
+  
+  }
+
+  #final {
+   margin-top: 10em;
+  }
+
+  #restart{
+   margin-top: 3em;
+  }
